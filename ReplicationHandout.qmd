@@ -1,0 +1,158 @@
+---
+title: "The Value of Replication Studies: Insights from Rogoff & Reinhart’s 2003 Publication"
+
+author:
+    - name: "Mahdi Abu Atmeh"
+      email: abu_atmeh.mahdi@stud.hs-fresenius.de
+      affiliations: Fresenius University of Applied Science
+      city: Cologne
+      region: EU
+      corresponding: true
+
+floatsintext: true
+wordcount-banner: true
+filters:
+  - wordcount
+  
+format:
+  apaquarto-pdf:
+    documentmode: stu
+    course: Data Science and Data Analytics  (WS 2025/26)
+    professor: Prof. Dr. Stephan Huber and Benjamin Groß
+    duedate: '2026-12-17'
+    keep-tex: false
+    fig-align: "left"
+    include-in-header:
+      text: |
+        \linespread{1.5}
+        <!-- This equals 1.5 linespacing in Word -->
+  apaquarto-html:
+    toc: true
+    embed-resources: true
+
+
+a4paper: true
+
+bibliography: Title.bib
+
+reference-location: document
+number-sections: true
+
+
+---
+
+
+## Introduction
+
+- **Replication** is essential to scientific credibility.  
+- In economics, replication tests whether results hold up under re-analysis.  
+- Today’s focus: *Rogoff & Reinhart (2003)* — a pivotal paper in macroeconomics.  
+- We explore what this paper teaches us about replication’s value.
+
+---
+
+## The 2003 Paper: "Debt Intolerance"
+
+- Authors: Carmen M. Reinhart, Kenneth S. Rogoff & Miguel A. Savastano  
+- Published in *Brookings Papers on Economic Activity (2003)*  
+- Main argument:  
+  > Some countries are “debt intolerant” — they experience crises at debt levels manageable by advanced economies.  
+- Key idea: Institutions and history matter more than a single debt threshold.  
+- Link: [Brookings Institution Article](https://www.brookings.edu/articles/debt-intolerance/)
+
+---
+
+## Why This Paper Matters for Replication
+
+- Influential in shaping debt policy debates in emerging markets.  
+- Built on cross-country data and novel concepts.  
+- Encouraged policy discussions around debt thresholds.  
+- Its influence makes it a prime candidate for replication scrutiny.
+
+---
+
+## What Are Replication Studies?
+
+- **Replication**: Re-running the same analysis with original data and methods.  
+- **Reproduction**: Confirming findings using new data or independent methods.  
+- Replication enhances:
+  - Credibility and transparency  
+  - Error detection and robustness  
+  - Cumulative scientific progress  
+- However, replication is often difficult due to unavailable data/code.
+
+---
+
+## Elements of a Strong Replication Study
+
+- Transparent data and full documentation  
+- Clear sample definitions and exclusions  
+- Shared code or reproducible workflow  
+- Robustness and sensitivity tests  
+- Publication of both confirmations and discrepancies  
+
+---
+
+## The Broader Rogoff–Reinhart Line of Research
+
+- Later work: *“Growth in a Time of Debt” (2010)*  
+- Widely cited — argued growth slows above 90% debt/GDP.  
+- Replication by Herndon, Ash & Pollin (2013) found:
+  - Coding and weighting errors  
+  - Selective country exclusions  
+- Lesson: Even leading research benefits from transparent replication.
+
+---
+
+## Lessons from the Replication Debate
+
+- Errors can occur even in top-tier research.  
+- Data/code transparency allows faster correction and learning.  
+- Policy implications must reflect uncertainty and replication risks.  
+- Open data enhances public trust and academic rigor.  
+- Teaching replication improves empirical skills and ethical awareness.
+
+---
+
+## Linking Back to “Debt Intolerance”
+
+- The 2003 paper’s contribution: highlighting institutional factors behind debt crises.  
+- A replication could:
+  - Update the dataset with recent decades  
+  - Test sensitivity to data definitions  
+  - Assess predictive validity across income levels  
+- This exercise shows replication as a *path to knowledge refinement.*
+
+---
+
+## Challenges and Limitations
+
+- Data access restrictions  
+- Ambiguity in variable definitions  
+- Code unavailability or proprietary tools  
+- Incentive problem: Replication studies undervalued in publication metrics  
+- Yet: these are reasons *to encourage* replication, not avoid it.
+
+---
+
+## Conclusion
+
+- Replication strengthens the credibility and reliability of economics research.  
+- The Rogoff–Reinhart case illustrates how influential findings demand scrutiny.  
+- Encouraging a **replication culture** benefits:
+  - Policymakers (better decisions)
+  - Researchers (deeper insights)
+  - Society (greater trust in science)  
+- *Replication is not about criticism — it’s about scientific integrity.*
+
+---
+
+## References
+
+- Reinhart, C. M., Rogoff, K. S., & Savastano, M. A. (2003). *Debt Intolerance*. Brookings Papers on Economic Activity, 2003(1), 1-74.  
+- Herndon, T., Ash, M., & Pollin, R. (2013). *Does High Public Debt Consistently Stifle Economic Growth?* University of Massachusetts Amherst Working Paper.  
+- Dimitrova, V. (2013). *Reinhart-Rogoff revisited: Coding errors happen...* LSE Impact Blog.  
+- Chang, A. C., & Li, P. (2015). *Is Economics Research Replicable?* Finance & Economics Discussion Series, Federal Reserve Board.  
+- Brookings Institution (2003). *Debt Intolerance*. [brookings.edu](https://www.brookings.edu/articles/debt-intolerance/)  
+
+---

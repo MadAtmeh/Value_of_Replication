@@ -1,0 +1,117 @@
+---
+title: "The Value of Replication Studies: Insights from Rogoff & Reinhart’s 2003 Publication"
+
+author:
+  - name: "Mahdi Abu Atmeh"
+    email: abu_atmeh.mahdi@stud.hs-fresenius.de
+    affiliations: Fresenius University of Applied Science
+    city: Cologne
+    region: EU
+  - name: "Syed Muhammad Musatafa Abidi"
+    email: abidi.syed@stud.hs-fresenius.de
+    affiliations: Fresenius University of Applied Science
+    city: Cologne
+    region: EU
+    corresponding: true
+    
+format:
+  revealjs:
+    theme: sky
+    slide-number: true
+    transition: fade
+
+---
+ 
+
+# Introduction
+
+- Replication is a key principle of scientific research
+- It checks whether published findings are correct
+- Without replication, errors can spread unchecked
+- Important in economics due to policy implications
+
+# What is a Replication Study?
+
+- Repeating an original study's analysis
+- Uses the same data and methods
+- Purpose: verify results
+- Tests transparency and reliability
+
+# Why Replication Was Important
+
+- Other researchers examined their calculations
+- Replication efforts found:
+  - Coding problems
+  - Data exclusions
+  - Spreadsheet errors
+- Conclusions requiring revision
+
+
+
+# Example of Replication for Accuracy
+
+```{r, echo=TRUE, results='hide'}
+# Sample dataset
+debt <- c(20, 40, 60, 80, 100)
+growth <- c(5, 4, 3, 1, -1)
+
+# Create a data frame
+df <- data.frame(debt, growth)
+
+# Calculate correlation
+cor(df$debt, df$growth)
+
+```
+
+
+# Why These Errors Matter
+
+- Data mistakes influenced real-world decisions
+- Replication prevented misleading conclusions
+
+
+
+# Example of Replication in Error Detection
+
+```{r, echo=TRUE, results='hide'}
+# Original Dataset
+debt <- c(30, 50, 70, 90, 110, 130)
+growth <- c(4, 3, 2.5, 2, 1, 0.5)
+
+df <- data.frame(debt, growth)
+df
+
+# The Researcher accidentally forgets to include one high-debt country
+# ERROR: only first 5 rows used
+
+wrong_avg <- mean(df$growth[1:5])
+wrong_avg
+
+
+# CORRECT calculation
+correct_avg <- mean(df$growth)
+correct_avg
+
+```
+
+# What Replication Teaches Us
+
+- Even famous studies can have errors
+- Transparency is essential
+- Code and data must be shared
+- Independent verification improves research
+
+# Benefits of Replication Studies
+
+- Detect mistakes
+- Improve accuracy
+- Increase trust
+- Strengthen scientific credibility
+- Support better policy decisions
+
+
+# Conclusion
+
+- Replication protects science from error
+- Trust comes from verification, not reputation
+- Replication makes research stronger

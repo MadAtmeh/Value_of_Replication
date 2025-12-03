@@ -1,0 +1,65 @@
+---
+title: "Affidavit"
+editor: visual
+
+author:
+  - name: "Mahdi Abu Atmeh"
+    email: abu_atmeh.mahdi@stud.hs-fresenius.de
+    affiliations: "Fresenius University of Applied Sciences"
+    city: "Cologne"
+    region: "EU"
+    corresponding: true
+
+floatsintext: true
+wordcount-banner: true
+
+filters:
+  - wordcount
+
+format:
+  apaquarto-pdf:
+    documentmode: stu
+    course: "Data Science and Data Analytics (WS 2025/26)"
+    professor: "Prof. Dr. Stephan Huber"
+    duedate: "2026-02-19"
+    keep-tex: false
+    fig-align: left
+    include-in-header:
+      text: |
+        \linespread{1.5}
+        % This equals 1.5 linespacing in Word
+
+  apaquarto-html:
+    toc: true
+    embed-resources: true
+
+a4paper: true
+---
+
+## Affidavit
+
+I hereby affirm that this paper was authored independently and solely by me.  
+No sources other than those listed in the reference section were used.  
+Any parts of this paper, including tables and figures, which were taken directly or indirectly from other works, have been properly cited with regard to their origin and authorship.
+
+This paper, either in part or in its entirety, has not been submitted to any other examination board and has not been published in the same or similar form.
+
+I acknowledge that the university may use plagiarism detection software to verify this work.  
+I agree to cooperate with any investigation into suspected plagiarism and to provide any additional information or evidence required by the university.
+
+### Checklist
+
+- [x] The handout contains 3–5 pages of text.
+- [x] The submission contains the Quarto file of the handout.
+- [x] The submission contains the Quarto file of the presentation.
+- [x] The submission contains the HTML file of the handout.
+- [x] The submission contains the HTML file of the presentation.
+- [x] The submission contains the PDF file of the handout.
+- [x] The submission contains the PDF file of the presentation.
+- [x] The title page of both the presentation and handout contains personal details (name, email, matriculation number).
+- [x] The handout contains a bibliography created using BibTeX with APA citation style.
+- [x] Either the handout or presentation includes R code demonstrating coding expertise.
+- [x] The Affidavit is completed.
+- [x] The presentation and handout are published on GitHub with a link provided.
+
+Mahdi Abu Atmeh, 17.12.2025, Köln, Germany
