@@ -1,7 +1,7 @@
 ---
 title: "The Value of Replication Studies: Insights from Rogoff & Reinhart’s 2003 Publication"
 format: html
-theme: spacelab
+theme: yeti
 ---
 
 # Welcome!  
@@ -11,4 +11,4 @@ Please find my files below:
 - [Handout PDF](ReplicationHandout.pdf)
 - [Handout HTML](ReplicationHandout.html)
 - [Presentation HTML](DA Presentation.html)
-- [Presentation PDF](pDA Presentation.pdf)
+- [Presentation PDF](DA Presentation.pdf)
