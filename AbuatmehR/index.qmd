@@ -4,11 +4,11 @@ format: html
 theme: spacelab
 ---
 
-# Welcome! 
+# Welcome!  
 
 Please find my files below:
 
-- [Handout PDF](handout.pdf)
-- [Handout HTML](handout.html)
-- [Presentation HTML](presentation.html)
-- [Presentation PDF](presentation.pdf)
+- [Handout Pdocs/ReplicationHandout.pdf.pdf)
+- [Handout Hdocs/ReplicationHandout.html.html)
+- [Presentation Hdocs/DA Presentation.html.html)
+- [Presentation Pdocs/DA Presentation.pdf.pdf)
