@@ -26,6 +26,8 @@ format:
 
 ![](docs/QRpic.png){fig-align="center" width=50% }
 
+Link: madatmeh.github.io/Value_of_Replication/
+
 # Introduction
 
 - Replication is a key principle of scientific research
