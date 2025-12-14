@@ -2,12 +2,12 @@
 title: "The Value of Replication Studies: Insights from Rogoff & Reinhart’s 2003 Publication"
 
 author:
-  - name: "Mahdi Abu Atmeh"
+  - name: Mahdi Abu Atmeh (401054029)
     email: abu_atmeh.mahdi@stud.hs-fresenius.de
     affiliations: Fresenius University of Applied Science
     city: Cologne
     region: EU
-  - name: "Syed Muhammad Musatafa Abidi"
+  - name: Syed Muhammad Musatafa Abidi (401038876)
     email: abidi.syed@stud.hs-fresenius.de
     affiliations: Fresenius University of Applied Science
     city: Cologne
