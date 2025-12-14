@@ -8,7 +8,7 @@ theme: spacelab
 
 Please find my files below:
 
-- [Handout Pdocs/ReplicationHandout.pdf)
-- [Handout Hdocs/ReplicationHandout.html)
-- [Presentation Hdocs/DA Presentation.html)
-- [Presentation Pdocs/DA Presentation.pdf)
+- [Handout PDF](ReplicationHandout.pdf)
+- [Handout HTML](ReplicationHandout.html)
+- [Presentation HTML](DA Presentation.html)
+- [Presentation PDF](pDA Presentation.pdf)
