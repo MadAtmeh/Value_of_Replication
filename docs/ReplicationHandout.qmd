@@ -13,6 +13,7 @@ floatsintext: true
 wordcount-banner: true
 filters:
   - wordcount
+
   
 format:
   apaquarto-pdf:

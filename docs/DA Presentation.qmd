@@ -21,7 +21,10 @@ format:
     transition: fade
 
 ---
- 
+## Scan the QR code for Handout {style="text-align: center;"}
+
+
+![](docs/QRpic.png){fig-align="center" width=50% }
 
 # Introduction
 
